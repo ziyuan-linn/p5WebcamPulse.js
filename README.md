@@ -5,7 +5,9 @@ This is a p5.js library for heart rate detection using only the webcam footage. 
 This project has two detection modes. In "finger" mode, you place a finger on the webcam; this mode is often more accurate. In "face" mode, the webcam automatically tracks a region of your face for detection. For both detection methods, you have to remain relatively still to get an accurate result.
 
 For now, this project requires [ml5.js](https://ml5js.org/) for face tracking.
+
 ##usage
+
 ###p5.js Web Editor
 Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/zl4140/sketches/ifz1L5W1M) and get started by editing the sketch.js file.
 
