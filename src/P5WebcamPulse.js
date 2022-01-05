@@ -286,11 +286,3 @@ function complexSubtract (a, b) {
 function complexMultiply (a, b) {
   return [a[0] * b[0] - a[1] * b[1], a[0] * b[1] + a[1] * b[0]];
 }
-
-/*===========================================================================*\
- * FaceMeshFaceGeometry
- *https://github.com/spite/FaceMeshFaceGeometry
- *
- * Copyright (c) 2020 Jaume Sanchez
-\*===========================================================================*/
-
