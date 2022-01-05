@@ -6,12 +6,11 @@ This project has two detection modes. In "finger" mode, you place a finger on th
 
 For now, this project requires [ml5.js](https://ml5js.org/) for face tracking.
 
-##usage
-w
-###p5.js Web Editor
+## usage
+### p5.js Web Editor
 Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/zl4140/sketches/ifz1L5W1M) and get started by editing the sketch.js file.
 
-###Download
+### Download
 1. Download P5WebcamPulse.js and include it in your project.
 
 2. Add the following code to the html file.
@@ -19,11 +18,12 @@ Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/zl4140/sk
 <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
 <script src="WebcamPulse.js"></script>
 ```
+
 3. Create a global variable and initialize the detector object with the following code in setup().
 ```
 detector = new P5WebcamPulse();
 ```
-###Methods
+### Methods
 1. P5WebcamPulse.setDetectionMode(mode)
 Set the detection mode to either face or finger.
 ```
@@ -37,6 +37,7 @@ Display one frame of the webcam video with the detection region marked, usually 
 ```
 detector.displayVideo();
 ```
+
 3. P5WebcamPulse.getProcessedBrightness()
 Get the relative brightness of the detection region based on past samples, return a value between -1 and 1.
 ```
@@ -48,6 +49,7 @@ Get the relative brightness of the detection region, return a value between 0 an
 ```
 detector.getRawBrightness();
 ```
+
 5. P5WebcamPulse.getHeartRate()
 Get the current heart rate in beats per minute.
 ```
