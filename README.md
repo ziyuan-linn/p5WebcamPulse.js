@@ -24,8 +24,7 @@ Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/zl4140/sk
 detector = new P5WebcamPulse();
 ```
 ### Methods
-1. P5WebcamPulse.setDetectionMode(mode)
-2. Set the detection mode to either face or finger.
+1. P5WebcamPulse.setDetectionMode(mode)\nSet the detection mode to either face or finger.
 ```
 detector.setDetectionMode("face");
 //or
