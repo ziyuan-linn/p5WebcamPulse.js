@@ -6,7 +6,7 @@ This project has two detection modes. In "finger" mode, you place a finger on th
 
 For now, this project requires [ml5.js](https://ml5js.org/) for face tracking.
 
-## usage
+## Usage
 ### p5.js Web Editor
 Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/zl4140/sketches/ifz1L5W1M) and get started by editing the sketch.js file.
 
@@ -25,7 +25,7 @@ detector = new P5WebcamPulse();
 ```
 ### Methods
 1. P5WebcamPulse.setDetectionMode(mode)
-Set the detection mode to either face or finger.
+2. Set the detection mode to either face or finger.
 ```
 detector.setDetectionMode("face");
 //or
