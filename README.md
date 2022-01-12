@@ -8,7 +8,7 @@ For now, this project requires [ml5.js](https://ml5js.org/) for face tracking.
 
 ## Usage
 ### p5.js Web Editor
-Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/zl4140/sketches/ifz1L5W1M) and get started by editing the sketch.js file.
+Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/Ziyuan_Lin/sketches/ifz1L5W1M) and get started by editing the sketch.js file.
 
 ### Download
 1. Download P5WebcamPulse.js and include it in your working directory.
