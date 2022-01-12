@@ -1,4 +1,4 @@
-# p5-Webcam-Heart-Rate
+# p5WebcamPulse.js
 ## Description
 This is a p5.js library for heart rate detection using only the webcam footage. This project uses PPG ([Photoplethysmogram](https://en.wikipedia.org/wiki/Photoplethysmogram))to detect the slight color change of your face or finger and calculates your heart rate. This project is inspired by the [work](https://github.com/serghov/heartRate) of serghov.
 
