@@ -24,7 +24,9 @@ Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/zl4140/sk
 detector = new P5WebcamPulse();
 ```
 ### Methods
-1. P5WebcamPulse.setDetectionMode(mode)\nSet the detection mode to either face or finger.
+1. P5WebcamPulse.setDetectionMode(mode)
+
+Set the detection mode to either face or finger.
 ```
 detector.setDetectionMode("face");
 //or
@@ -32,24 +34,28 @@ detector.setDetectionMode("finger");
 ```
 
 2. P5WebcamPulse.displayVideo()
+
 Display one frame of the webcam video with the detection region marked, usually called in draw().
 ```
 detector.displayVideo();
 ```
 
 3. P5WebcamPulse.getProcessedBrightness()
+
 Get the relative brightness of the detection region based on past samples, return a value between -1 and 1.
 ```
 detector.getProcessedBrightness();
 ```
 
 4. P5WebcamPulse.getRawBrightness()
+
 Get the relative brightness of the detection region, return a value between 0 and 255.
 ```
 detector.getRawBrightness();
 ```
 
 5. P5WebcamPulse.getHeartRate()
+
 Get the current heart rate in beats per minute.
 ```
 detector.getHeartRate();
