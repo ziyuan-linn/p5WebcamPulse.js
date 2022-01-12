@@ -6,7 +6,7 @@ This project has two detection modes. In "finger" mode, you place a finger on th
 
 ## Usage
 ### p5.js Web Editor
-Make a copy of this [p5.js Web Editor project](https://editor.p5js.org/Ziyuan_Lin/sketches/ifz1L5W1M) and get started by editing the sketch.js file.
+Make a copy of this [p5.js Web Editor example](https://editor.p5js.org/Ziyuan_Lin/sketches/ifz1L5W1M) and get started by editing the sketch.js file.
 
 ### Download
 1. Download P5WebcamPulse.js and include it in your working directory.
