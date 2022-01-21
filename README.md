@@ -13,7 +13,6 @@ Make a copy of this [p5.js Web Editor example](https://editor.p5js.org/Ziyuan_Li
 
 2. Add the following code to the html file.
 ```
-<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
 <script src="WebcamPulse.js"></script>
 ```
 
